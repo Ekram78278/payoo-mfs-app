@@ -44,27 +44,27 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
  </div>
 
  <div class=" min-h-[200px] grid grid-cols-3 gap-4 p-3">
-    <div id="add-button" class="border-2 border-gray-300 text-center   rounded-xl ">
+    <div id="add-button" class=" form-btn  border-2 border-gray-300 text-center   rounded-xl ">
          <img src="/assets/wallet1.png" class="mx-auto p-3" alt="">
          <h2>Add money</h2>
     </div>
-    <div id="cash-out-button" class="border-2 border-gray-300 text-center  rounded-xl ">
+    <div id="cash-out-button" class=" form-btn border-2 border-gray-300 text-center  rounded-xl ">
          <img src="/assets/Cashout.png" class="mx-auto p-3" alt="">
          <h2>Cashout</h2>
     </div>
-    <div id="transfer-money-button" class="border-2 border-gray-300 text-center   rounded-xl">
+    <div id="transfer-money-button" class=" form-btn border-2 border-gray-300 text-center   rounded-xl">
          <img src="/assets/TransferMoney.png" class="mx-auto p-3" alt="">
          <h2>Transfer Money</h2>
     </div>
-    <div id=" get-bonus-button" class="border-2 border-gray-300 text-center  rounded-xl ">
+    <div id="bonus-button" class=" form-btn border-2 border-gray-300 text-center  rounded-xl ">
          <img src="/assets/bonus1.png" class="mx-auto p-3" alt="">
          <h2>Get Bonus</h2>
     </div>
-    <div id="pay-bill-button" class="border-2 border-gray-300 text-center rounded-xl  ">
+    <div id="pay-bill-button" class=" form-btn border-2 border-gray-300 text-center rounded-xl  ">
          <img src="/assets/purse1.png" class="mx-auto p-3" alt="">
          <h2>Pay Bill</h2>
     </div>
-    <div id="transactions-button" class="border-2 border-gray-300 text-center  rounded-xl ">
+    <div id="transactions-button" class=" form-btn border-2 border-gray-300 text-center  rounded-xl ">
          <img src="/assets/transaction1.png" class="mx-auto p-3" alt="">
          <h2>Transactions</h2>
     </div>
@@ -74,7 +74,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <div class="all-form-sections max-w-lg mx-auto">
     <!-- add money -->
-     <div id="add-money-parent">
+     <div class="form" id="add-money-parent">
         <h1 class="my-5 font-bold ml-3.5">Add Money</h1>
         <form action="" class="bg-white rounded-2xl p-8">
             <div class="mb-3">
@@ -110,7 +110,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
      </div>
 
      <!-- cashout -->
-    <div id="cash-out-parent">
+    <div class="form" id="cash-out-parent">
         <h1 class="my-5 font-bold ml-3.5">Cash Out</h1>
          <form action="" class="bg-white rounded-2xl p-8">
             <div>
@@ -138,9 +138,33 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </div>
 
     <!-- Transfer Money -->
-     <div id="transfer-money-parent">
+     <div class="form" id="transfer-money-parent">
         <h1 class="my-5 font-bold ml-3.5">Transfer Money</h1>
 
+     </div>
+
+    <!-- Get Bonus  -->
+    <div class="form" id="get-bonus-parent">
+        <h1 class="my-5 font-bold ml-3.5">Get Bonus</h1>
+
+     </div>
+
+     <!-- pay bill -->
+    <div class="form" id="pay-bill-parent">
+        <h1 class="my-5 font-bold ml-3.5">Pay Bill</h1>
+
+     </div>
+
+     <!-- transactions -->
+    <div class="form" id="transactions-parent">
+        <div class=" flex justify-between items-center">
+                    <h1 class="my-5 font-bold ml-3.5">Transactions</h1>
+            <p class=" text-[#08080880] mr-7">View All</p>
+        </div>
+        <div id="transaction-container">
+
+            
+        </div>
      </div>
 </div>
 
